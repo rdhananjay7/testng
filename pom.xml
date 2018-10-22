@@ -44,7 +44,7 @@
 						<version>2.22.1</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng_selenium.xml</suiteXmlFile>
+								<suiteXmlFile>testng_restapi.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

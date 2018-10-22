@@ -1,4 +1,4 @@
-package framework.selenium;
+package framework.selenium.app1;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
