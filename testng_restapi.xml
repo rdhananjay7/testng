@@ -3,7 +3,7 @@
 
 <suite name="allSuites">
 	<suite-files>
-		<suite-file path="testng_suite_for_sele_app1.xml" />
-		<suite-file path="testng_suite_for_sele_app2.xml" />
+		<suite-file path="testng_suite_for_rest_app1.xml" />
+		<suite-file path="testng_suite_for_rest_app2.xml" />
 	</suite-files>
 </suite>

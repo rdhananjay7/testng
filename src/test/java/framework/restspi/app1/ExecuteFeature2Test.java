@@ -1,4 +1,4 @@
-package framework.restspi;
+package framework.restspi.app1;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -8,9 +8,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class ExecuteApp2Test {
+public class ExecuteFeature2Test {
 
-	private static Logger classLogger = LogManager.getLogger(ExecuteApp2Test.class.getName());
+	private static Logger classLogger = LogManager.getLogger(ExecuteFeature2Test.class.getName());
 
 	@BeforeTest
 	public void setup() {

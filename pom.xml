@@ -17,7 +17,7 @@
 	<profiles>
 
 		<profile>
-			<id>"Selenium"</id>
+			<id>Selenium</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -35,7 +35,7 @@
 		</profile>
 
 		<profile>
-			<id>"RestAPI"</id>
+			<id>RestAPI</id>
 			<build>
 				<plugins>
 					<plugin>
