@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import framework.utils.restapi.Utils;
+
 public class ExecuteFeature1Test {
 
 	private static Logger classLogger = LogManager.getLogger(ExecuteFeature1Test.class.getName());
@@ -27,6 +29,9 @@ public class ExecuteFeature1Test {
 		classLogger.info("---------------------------------------------------------------");
 		classLogger.info("Executing @AfterTest");
 		classLogger.info("This gets executed once per class");
+
+		Utils.sampleUtility(classLogger);
+
 		classLogger.info("This will be executed after running all the tests in a class.");
 		classLogger.info("---------------------------------------------------------------");
 

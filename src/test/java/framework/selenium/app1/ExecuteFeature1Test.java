@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import framework.utils.selenium.Utils;
+
 public class ExecuteFeature1Test {
 
 	private static Logger classLogger = LogManager.getLogger(ExecuteFeature1Test.class.getName());
@@ -69,6 +71,9 @@ public class ExecuteFeature1Test {
 
 		classLogger.info("---------------------------------------------------------------");
 		classLogger.info("Executing launchUrl method");
+
+		Utils.sampleUtility(classLogger);
+
 		classLogger.debug("Launched URL successfully");
 		classLogger.info("---------------------------------------------------------------");
 
