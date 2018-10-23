@@ -6,6 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class LaunchURLTest {
@@ -60,6 +61,22 @@ public class LaunchURLTest {
 
 		classLogger.error("sample error logging");
 		classLogger.fatal("sample fatal logging");
+		classLogger.info("---------------------------------------------------------------");
+
+	}
+
+	@Test
+	@Parameters({ "username", "password" })
+	public void login(String username, String password) {
+
+		classLogger.info("---------------------------------------------------------------");
+		classLogger.info("Executing login method");
+
+		classLogger.info("Reading parameters from the testng.xml file");
+		classLogger.info("Value of username: " + username);
+		classLogger.info("Value of password: " + password);
+
+		classLogger.debug("Launched URL successfully");
 		classLogger.info("---------------------------------------------------------------");
 
 	}
